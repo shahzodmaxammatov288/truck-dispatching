@@ -1,0 +1,985 @@
+
+
+  /* ============================ NAVBAR MOBILE media BEGIN============================ */ 
+
+
+  @media (max-width: 767px) {
+    .header, .navbar_col {
+      padding: 0;
+    }
+     .navbar_mobile {
+      width: 100%;
+    }
+    .header_mobile {
+      background: url('../images/Rectangle\ 183.png') no-repeat center center / cover;
+      padding: 15px 0;
+    }
+    .navbar_ul {
+      padding: 20px 0;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+    }
+    .navbar_li {
+      text-align: center;
+    }
+    .navbar_link {
+      display: block;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .navbar_li:last-child > .navbar_link {
+      display: inline-block;
+    }
+    .header__img__block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header_toggle_btn {
+      width: 35px;
+      height: 35px;
+      position: relative;
+      cursor: pointer;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .header_toggle_btn_span {
+      width: 100%;
+      border: 2px solid #FFFFFF;
+      transition: all .4s;
+    }
+    .header_toggle_btn_span:nth-child(1).active {
+      position: absolute;
+      top: 50%;
+      transform: rotate(135deg);
+    }
+    .header_toggle_btn_span:nth-child(2).active {
+      display: none;
+    }
+    .header_toggle_btn_span:nth-child(3).active {
+      position: absolute;
+      top: 50%;
+      transform: rotate(-135deg);
+    }
+  }
+  
+    /* ============================ NAVBAR MOBILE media BEGIN============================ */ 
+  
+  
+  
+  /*Extra Small*/
+  @media (max-width: 575px){
+  
+    /* ============================ HEADER BEGIN ============================ */
+  
+    .header_title {
+      font-size: 45px;
+      margin-top: 0;
+    }
+    .header_text {
+      font-size: 18px;
+    }
+    .header__button__block {
+      display: block;
+    }
+    .header_button , .header_ul {
+      width: 100%;
+      text-align: left;
+    }
+    .header_ul {
+      top: 0px;
+      left: 0px;
+    }
+    .header_li:first-child {
+      margin-top: 58px; 
+  }
+    .header_button, .header_li {
+      padding-left: 25px;
+    }
+  
+    /* ============================ HEADER END ============================ */
+  
+  
+    /* ============================ WHAT WE DO BEGIN ============================ */
+    .what_we_do {
+      padding: 20px 0;
+    }
+    .what_we_do_icon {
+      width: 64px;
+      height: 64px;
+    }
+    .what_we_do_icon  > img{
+      transform: scale(0.7);
+    }
+    .what_we_do_block {
+      margin: 15px 0 0;
+    }
+    /* ============================ WHAT WE DO END ============================ */
+  
+    /* ============================ MORE ABOUT US BEGIN  ============================ */
+    .more_about_us_block {
+      margin: 120px 0;
+      padding: 70px 0;
+    }
+    .more_about_us_left {
+      height: auto;
+      padding: 0 20px;
+    }
+    .more_about_us_right {
+      padding: 0 20px;
+    }
+    .more_about_video_container {
+      width: 100%;
+      height: 250px;
+      position: static;
+    }
+    .more_about_us_top {
+      width: 250px;
+      top: -90px;
+      left: 50%;
+      transform: translateX(-50%) translateY(0);
+      padding: 25px 25px;
+    }
+    .more_about_base {
+      width: 100%;
+      bottom: -15px;
+      padding: 0 10px;
+    }
+    .more_about_us_title {
+      margin-top: 25px;
+    }
+    .more_btn {
+      width: 100%;
+    }
+    .more_about_us_social_media {
+      width: 250px;
+      left: 50%;
+      transform: translateX(-50%);
+      right: 0;
+    }  
+    /* ============================ MORE ABOUT US END  ============================ */
+    /* ============================ WHAT WE SPECIALIZE IN BEGIN  ============================ */
+    .we_specialize {
+      margin: 50px 0;
+      padding: 0;
+    }
+    .we_specialize_box_col {
+      flex-wrap: wrap;
+    }
+    .we_specialize_text_container {
+      width: 100%;
+      height: 168px;
+    } 
+    .we_specialize_box {
+      width: 50%;
+      height: 180px;
+    }
+    .we_specialize_title {
+      max-width: 100%;
+      font-size: 24px;
+    }
+    .we_specialize_text {
+      max-width: 333px;
+      font-size: 16px;
+    }
+    .we_specialize_box:nth-child(1){
+      border-radius: 15px 0 0 0;
+      border-right: 0;
+      border-bottom: 0;
+    }  
+    .we_specialize_box:nth-child(2){
+      border-radius: 0 15px 0 0;
+      border-bottom: 0;
+    }  
+    .we_specialize_box:nth-child(3){
+      border-radius: 0 0 0 15px;
+      border-right: 0;
+    }  
+    .we_specialize_box:nth-child(4){
+      border-radius: 0 0 15px;
+    }
+    /* ============================ WHAT WE SPECIALIZE IN END  ============================ */
+  
+    /* ============================ WHY US BEGIN  ============================ */
+    .why_us {
+      margin: 50px 0;
+      padding: 0;
+    }
+    .why_us_block {
+      padding: 50px 25px;
+    }
+    .why_us_title {
+      font-size: 24px;
+      margin-left: 10px;
+    }
+    .why_us_text {
+      margin-top: 5px;
+      margin-left: 10px;
+    }
+    .why_us_box_container {
+      margin: 10px 0;
+      justify-content: space-between;
+    }
+    .why_us_box {
+      width: 120px;
+      height: 120px;
+      margin: 7px auto;
+    }
+    .why_us_box_title {
+      font-size: 12px;
+    }
+    /* ============================ WHY US END  ============================ */
+    /* ============================ PLATFORM WE WORK ON BEGIN  ============================ */
+    .platform_work {
+      margin: 25px 0;
+      padding: 25px 0;
+    }
+    .platform_work_text_box {
+      align-items: flex-start;
+      margin-left: 5px;
+    }
+    .platform_work_title {
+      font-size: 24px;
+    }
+    .platform_work_text {
+      font-size: 16px;
+      text-align: left;
+    }
+    .platworm_work_logo_row {
+      margin-top: 20px;
+    }
+    .platworm_work_logo {
+      width: 150px;
+      height: 76px;
+    }
+    .platform_work::after {
+      font-size: 15px;
+      bottom: -15px;
+    }
+    /* ============================ PLATFORM WE WORK ON END  ============================ */
+  
+    /* ============================ WHO WE HELPED BEGIN  ============================ */
+    .we_helped {
+      margin: 25px  0;
+      padding: 25px 0;
+    }
+    .we_helped_text_box {
+      align-items: flex-start;
+    }
+    .we_helped_title {
+      font-size: 24px;
+    }
+    .we_helped_text {
+      font-size: 16px;
+      text-align: left;
+    }
+    .we_helped_slider .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .slider_card_box {
+      width: 310px;
+      height: 370px;
+    }
+    .slider_card_name, .slider_card_companyName {
+      font-size: 12px;
+    }
+    .slider_card_text {
+      margin: 15px 0;
+      font-size: 12px;
+    }
+    .slider_card_icon {
+      bottom: 15px;
+  }
+    .lSAction {
+      width: 120px;
+      margin: 5px auto 0;
+    }
+    /* ============================ WHO WE HELPED END  ============================ */
+  
+    /* ============================ FOOTER BEGIN ============================  */
+    .footer_block {
+      padding: 60px 0 20px;
+    }
+    .footer_before {
+      width: 100%;
+      border-radius: 30px 30px 0px 0px;
+    }
+    .footer-title {
+      font-size: 24px;
+    } 
+    .footer .more_btn {
+      height: 60px;
+    }
+    .footer_bottom img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    .footer-links-title {
+      margin-top: 30px;
+    }
+    .footer-copy {
+      text-align: left;
+      font-size: 12px;
+    }
+    .footer-copy span {
+      display: block;
+      margin: 5px 0;
+    }
+    .footer_block {
+      padding: 60px 0 20px;
+    }
+    .back-to-top {
+      right: 10px;
+      top: 27%;
+    }
+    /* ============================ FOOTER END ============================  */
+  }
+  /*Small*/
+  @media screen and (max-width: 767px) and (min-width: 576px){
+    /* ============================ WHAT WE DO BEGIN ============================ */
+    .what_we_do {
+      padding: 20px 0;
+    }
+    .what_we_do_icon {
+      width: 64px;
+      height: 64px;
+    }
+    .what_we_do_icon  > img {
+      transform: scale(0.7);
+    }
+    .what_we_do_block {
+      margin: 15px 0 0;
+    }
+    /* ============================ WHAT WE DO END ============================ */
+  
+    /* ============================ MORE ABOUT US BEGIN  ============================ */
+    .more_about_us_block {
+      margin: 120px 0;
+      padding: 70px 0;
+    }
+    .more_about_us_left {
+      height: auto;
+      padding: 0 20px;
+    }
+    .more_about_us_right {
+      padding: 0 20px;
+    }
+    .more_about_us_top {
+      width: 250px;
+      top: -90px;
+      left: 25%;
+      transform: translateX(-50%) translateY(0);
+      padding: 25px 25px;
+    }
+    .more_about_us_top:after {
+      left: 65px;
+    }
+    .more_about_video_container {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+    .more_about_base {
+      width: 100%;
+      bottom: -15px;
+      padding: 0 10px;
+    }
+    .more_about_us_title {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    .more_btn {
+      width: 200px;
+    }
+    .more_about_us_social_media {
+      width: 250px;
+      left: 50%;
+      transform: translateX(-50%);
+      right: 0;
+    }  
+    /* ============================ MORE ABOUT US END  ============================ */
+  
+    /* ============================ WHAT WE SPECIALIZE IN BEGIN  ============================ */
+    .we_specialize_box_col {
+      flex-wrap: wrap;
+    }
+    .we_specialize {
+      margin: 30px 0;
+      padding: 30px 0;
+    }
+    .we_specialize_box_col {
+      flex-wrap: wrap;
+    }
+    .we_specialize_text_container {
+      width: 100%;
+      height: 168px;
+    } 
+    .we_specialize_box {
+      width: 50%;
+      height: 250px;
+    }
+    .we_specialize_title {
+      max-width: 100%;
+      font-size: 30px;
+    }
+    .we_specialize_text {
+      max-width: 333px;
+      font-size: 18px;
+    }
+    .we_specialize_box_title {
+      font-size: 18px;
+    }
+    .we_specialize_box:nth-child(1){
+      border-radius: 15px 0 0 0;
+      border-right: 0;
+      border-bottom: 0;
+    }  
+    .we_specialize_box:nth-child(2){
+      border-radius: 0 15px 0 0;
+      border-bottom: 0;
+    }  
+    .we_specialize_box:nth-child(3){
+      border-radius: 0 0 0 15px;
+      border-right: 0;
+    }  
+    .we_specialize_box:nth-child(4){
+      border-radius: 0 0 15px;
+    }
+    /* ============================ WHAT WE SPECIALIZE IN END  ============================ */
+    /* ============================ WHY US BEGIN  ============================ */
+    .why_us {
+      margin: 50px 0;
+      padding: 0;
+    }
+    .why_us_block {
+      padding: 50px 25px;
+    }
+    .why_us_title {
+      font-size: 24px;
+      text-align: center;
+    }
+    .why_us_text {
+      margin-top: 5px;
+      text-align: center;
+      max-width: 100%;
+    }
+    .why_us_box_container {
+      margin: 10px 0;
+    }
+    .why_us_box {
+      width: 150px;
+      height: 150px;
+      margin: 7px;
+    }
+    .why_us_box_title {
+      font-size: 12px;
+    }
+    /* ============================ WHY US END  ============================ */
+  
+    /* ============================ PLATFROM WE WORK ON BEGIN  ============================ */
+    .platform_work {
+      margin: 50px 0;
+      padding: 0;
+    }
+    .platform_work_title {
+      font-size: 24px;
+    }
+    .platform_work_text {
+      font-size: 16px;
+    }
+    .platworm_work_logo_row {
+      margin-top: 20px;
+    }
+    .platworm_work_logo {
+      width: 150px;
+      height: 76px;
+    }
+    .platform_work::after {
+      font-size: 15px;
+      bottom: -50px;
+    }
+    /* ============================ PLATFROM WE WORK ON END  ============================ */
+
+    /* ============================ WHO WE HELPED BEGIN  ============================ */
+  
+    .slider_card_name, .slider_card_companyName {
+      font-size: 12px;
+    }
+    .slider_card_text {
+      margin: 15px 0;
+      font-size: 12px;
+    }
+    /* ============================ WHO WE HELPED END  ============================ */
+
+    /* ============================ FOOTER BEGIN ============================  */
+    .footer_block {
+      padding: 60px 0 20px;
+    }
+    .footer_before {
+      width: 95%;
+    }
+    .footer-title {
+      font-size: 24px;
+    } 
+    .footer .more_btn {
+      height: 60px;
+    }
+    .footer_bottom img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    .footer-links-title {
+      margin-top: 30px;
+    }
+    .footer-copy {
+      text-align: left;
+      font-size: 12px;
+    }
+    .footer-copy span {
+      display: block;
+      margin: 5px 0;
+    }
+    .footer_block {
+      padding: 60px 0 20px;
+    }
+    .back-to-top {
+      top: 27%;
+    }
+    /* ============================ FOOTER END ============================  */
+  }
+  /*Medium*/
+  @media screen and (max-width: 991px) and (min-width: 768px){
+     
+     /* ============================ WHAT WE DO BEGIN ============================ */
+  
+    .what_we_do_block {
+      margin: 15px 0 0;
+    }
+  
+    /* ============================ WHAT WE DO END ============================ */
+  
+    /* ============================ MORE ABOUT US BEGIN  ============================ */
+    .more_about_us_block {
+      margin: 100px 0;
+      padding: 90px 0;
+    }
+    .more_about_us_block {
+      padding: 50px 0;
+    }
+    .more_about_us_left {
+      height: auto;
+      padding: 0 20px;
+    }
+    .more_about_us_right {
+      padding: 0 20px;
+    }
+    .more_about_video_container {
+      width: 100%;
+      height: 280px;
+      position: static;
+    }
+    .more_about_us_top {
+      width: 280px;
+      top: -110px;
+      left: 50%;
+      transform: translateX(-50%) translateY(0);
+      padding: 25px 25px;
+    }
+    .more_about_base {
+      width: 100%;
+      bottom: -15px;
+      padding: 0 10px;
+    }
+    .more_about_us_social_media {
+      width: 250px;
+      left: 50%;
+      transform: translateX(-50%);
+      right: 0;
+    }  
+    
+    /* ============================ MORE ABOUT US END  ============================ */
+  
+    /* ============================ WHAT WE SPECIALIZE IN BEGIN  ============================ */
+    .we_specialize {
+      margin: 50px 0;
+      padding: 0;
+    }
+    .we_specialize_box_col {
+      flex-wrap: wrap;
+    }
+    .we_specialize_text_container {
+      width: 100%;
+      height: 168px;
+    } 
+    .we_specialize_box {
+      width: 50%; 
+      height: 250px;
+    }
+    .we_specialize_title {
+      max-width: 100%;
+      font-size: 30px;
+    }
+    .we_specialize_text {
+      max-width: 333px;
+      font-size: 18px;
+    }
+    .we_specialize_box_title {
+      font-size: 18px;
+    }
+    .we_specialize_box:nth-child(1){
+      border-radius: 15px 0 0 0;
+      border-right: 0;
+      border-bottom: 0;
+    }  
+    .we_specialize_box:nth-child(2){
+      border-radius: 0 15px 0 0;
+      border-bottom: 0;
+    }  
+    .we_specialize_box:nth-child(3){
+      border-radius: 0 0 0 15px;
+      border-right: 0;
+    }  
+    .we_specialize_box:nth-child(4){
+      border-radius: 0 0 15px;
+    }
+    /* ============================ WHAT WE SPECIALIZE IN END  ============================ */
+  
+    /* ============================ WHY US BEGIN  ============================ */
+    .why_us {
+      margin: 50px 0;
+      padding: 0;
+    }
+    .why_us_text {
+      max-width: 100%;
+    }
+    .why_us_box_container {
+      margin: 20px 0;
+    }
+    /* ============================ WHY US END  ============================ */
+    /* ============================ PLATFROM WE WORK ON BEGIN  ============================ */
+    .platworm_work_logo {
+      width: 150px;
+      height: 75px;
+    }
+    .platform_work_img {
+      transform: scale(0.6);
+    }
+    .platform_work::after {
+      bottom: -25px;
+    }
+    /* ============================ PLATFROM WE WORK ON END  ============================ */
+  
+    /* ============================ WHO WE HELPED BEGIN  ============================ */
+    .we_helped {
+      margin: 50px  0;
+      padding: 25px 0;
+    }
+    .we_helped_text_box {
+      align-items: flex-start;
+    }
+    .we_helped_title {
+      font-size: 24px;
+    }
+    .we_helped_text {
+      font-size: 16px;
+      text-align: left;
+    }
+    .slider_card_box {
+      width: 310px;
+      height: 370px;
+    }
+    .slider_card_name, .slider_card_companyName {
+      font-size: 12px;
+    }
+    .slider_card_text {
+      margin: 15px 0;
+      font-size: 12px;
+    }
+    .slider_card_icon {
+      bottom: 15px;
+  }
+    .lSAction {
+      width: 120px;
+      margin: 5px auto 0;
+    }
+    /* ============================ WHO WE HELPED END  ============================ */
+  
+    /* ============================ FOOTER BEGIN ============================  */
+    .footer-title {
+      font-size: 24px;
+    } 
+    .footer .more_btn {
+      height: 60px;
+    }
+    .footer_bottom img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    .footer-links-title {
+      margin-top: 30px;
+    }
+    .footer-copy {
+      text-align: left;
+      font-size: 12px;
+    }
+    .footer-copy span {
+      margin: 5px 0;
+    }
+    .back-to-top {
+      top: 28%;
+    }
+    /* ============================ FOOTER END ============================  */
+  }
+  /*Large*/
+  @media screen and (max-width: 1199px) and (min-width: 992px){
+    
+    /* ============================ HEADER BEGIN ============================ */
+    .navbar_link {
+      font-size: 10px;
+      margin: 0 6px;
+    }
+    
+    /* ============================ HEADER END ============================ */
+  
+    /* ============================ WHAT WE DO BEGIN ============================ */
+  
+  
+    /* ============================ WHAT WE DO END ============================ */
+    .platform_work {
+      margin: 50px 0;
+      padding: 0;
+    }
+    .platform_work::after {
+      font-size: 18px;
+      bottom: -15px;
+    }
+    .platform_work_title {
+      font-size: 24px;
+    }
+    .platform_work_text {
+      font-size: 16px;
+    }
+    .platworm_work_logo_row {
+      margin-top: 20px;
+    }
+    .platworm_work_logo {
+      width: 150px;
+      height: 76px;
+    }
+    /* ============================ MORE ABOUT US BEGIN  ============================ */
+    .more_about_us_block {
+      margin: 100px 0;
+      padding: 50px 0;
+    }
+    .more_about_us_top {
+      left: 50px;
+      top: -120px;
+      transform: translateY(0);
+    }
+    .more_about_video_container {
+      width: 100%;
+      height: 340px;
+      position: static;
+    }
+    .more_about_us_left {
+      height: auto;
+      padding: 0 20px;
+    }
+    .more_about_us_right {
+      padding: 0 20px;
+    }
+    .more_about_base {
+      width: 100%;
+      bottom: -15px;
+      padding: 0 10px;
+    }
+    .more_about_us_social_media {
+      right: 0;
+      bottom: -40px;
+    }
+    /* ============================ MORE ABOUT US END  ============================ */
+  
+    /* ============================ WHAT WE SPECIALIZE IN BEGIN  ============================ */
+    .we_specialize {
+      margin: 50px 0;
+      padding: 0;
+    }
+    /* ============================ WHAT WE SPECIALIZE IN END  ============================ */
+  
+    /* ============================ WHY US BEGIN  ============================ */
+    .why_us {
+      margin: 50px 0;
+      padding: 0;
+    }
+    /* ============================ WHY US END  ============================ */
+    /* ============================ PLATFROM WE WORK ON BEGIN  ============================ */
+  
+    /* ============================ PLATFROM WE WORK ON END  ============================ */
+  
+    /* ============================ WHO WE HELPED BEGIN  ============================ */
+    .slider_card_box {
+      width: 310px;
+      height: 370px;
+    }
+    .slider_card_name, .slider_card_companyName {
+      font-size: 12px;
+    }
+    .slider_card_text {
+      margin: 15px 0;
+      font-size: 12px;
+    }
+    .slider_card_icon {
+      bottom: 15px;
+    }
+    .lSAction {
+      width: 120px;
+      margin: 5px auto 0;
+    }
+    /* ============================ WHO WE HELPED END  ============================ */
+    .footer-copy {
+      padding-right: 20px;
+    }
+
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1300px) {
+    .more_about_us_top {
+      left: 0;
+    }
+    .more_about_us_social_media {
+      right: 0;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    
+    /* ============================ HEADER BEGIN ============================ */
+    .header_title {
+      font-size: 36px;
+      margin-top: -50px;
+    }
+    /* ============================ HEADER END ============================ */
+  
+    /* ============================ WHAT WE SPECIALIZE IN BEGIN  ============================ */
+    .we_specialize_box_title {
+      font-size: 16px;
+    }
+    /* ============================ WHAT WE SPECIALIZE IN END  ============================ */
+    /* ============================ WHY US BEGIN  ============================ */
+    .why_us_box {
+      width: 110px;
+      height: 120px;
+    }
+    .why_us_box_title {
+      font-size: 11px;
+    }
+    /* ============================ WHY US END  ============================ */
+    /* ============================ PLATFROM WE WORK ON BEGIN  ============================ */
+    .platworm_work_logo {
+      width: 125px;
+      height: 65px;
+    }
+    .platform_work_img {
+      transform: scale(0.5);
+    }
+    /* ============================ PLATFROM WE WORK ON END  ============================ */
+    /* ============================ WHO WE HELPED BEGIN  ============================ */
+    .slider_card_box {
+      width: 280px;
+      height: 350px;
+    }
+    .slider_card_name, .slider_card_companyName {
+      font-size: 14px;
+    }
+    .slider_card_date {
+      font-size: 10px;
+    }
+    .slider_card_text {
+      font-size: 12px;
+    }
+    /* ============================ WHO WE HELPED END  ============================ */  
+  
+    /*     ============================ LOGOS BEGIN ============================  */
+    .we_logo_box {
+      max-width: 110px;
+      margin: 25px auto;
+    }
+    /*     ============================ LOGOS ENS ============================  */
+    /* ============================ FOOTER BEGIN ============================  */
+  
+    /* ============================ FOOTER END ============================  */
+  }
+  @media (max-width: 280px) {
+  
+    /* ============================ MORE ABOUT US BEGIN  ============================ */
+    .more_about_video_container {
+      height: 200px;
+    }
+    .more_about_us_top {
+      width: 220px;
+    }
+    .more_about_top_title {
+      font-size: 20px;
+    }   
+    .more_about_top_text {
+      font-size: 12px;
+    } 
+    .more_about_us_title {
+      font-size: 25px;
+    }
+    .more_about_us_text {
+      font-size: 15px;
+    }
+    .more_about_us_social_media {
+      width: 200px;
+      padding: 10px;
+    }
+    .more_about_us_social_media img {
+      width: 10px;
+    }
+    /* ============================ MORE ABOUT US END  ============================ */
+  
+    /* ============================ WHAT WE SPECIALIZE IN BEGIN  ============================ */
+    .we_specialize_box_title {
+      font-size: 16px;
+    }
+    /* ============================ WHAT WE SPECIALIZE IN END  ============================ */
+    
+    /* ============================ WHY US BEGIN  ============================ */
+    .why_us_text {
+      font-size: 14px;
+    }
+    /* ============================ WHY US END  ============================ */
+  
+    /* ============================ PLATFROM WE WORK ON BEGIN  ============================ */
+    .platform_work::after {
+      font-size: 12px;
+    }
+    /* ============================ PLATFROM WE WORK ON END  ============================ */
+  
+    /* ============================ WHO WE HELPED BEGIN  ============================ */
+    .slider_card_box {
+      width: 250px;
+      height: 350px;
+    }
+    .slider_card_name, .slider_card_companyName {
+      font-size: 12px;
+    }
+    .slider_card_date {
+      font-size: 8px;
+    }
+    .slider_card_text {
+      font-size: 10px;
+    }
+    /* ============================ WHO WE HELPED END  ============================ */
+  
+  }
